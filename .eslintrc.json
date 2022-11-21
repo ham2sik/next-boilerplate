@@ -1,0 +1,84 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parser": "@babel/eslint-parser",
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "react-hooks", "prettier"],
+  "rules": {
+    // Possible Problems
+    "constructor-super": 0,
+    "getter-return": 0,
+    "no-await-in-loop": 2,
+    "no-duplicate-imports": 2,
+    "no-inner-declarations": [2, "both"],
+    "no-promise-executor-return": 1,
+    "no-self-compare": 2,
+    "no-setter-return": 0,
+    "no-template-curly-in-string": 2,
+    "no-this-before-super": 0,
+    "no-unmodified-loop-condition": 2,
+    "no-unreachable-loop": 2,
+    "no-use-before-define": 2,
+    "require-atomic-updates": 2,
+    // Suggestions
+    "block-scoped-var": 2,
+    "consistent-return": 1,
+    "curly": 1,
+    "default-case-last": 1,
+    "default-param-last": 1,
+    "eqeqeq": 2,
+    "new-cap": 1,
+    "no-console": [1, { "allow": ["warn", "error"] }],
+    "no-delete-var": 1,
+    "no-empty-function": 2,
+    "no-eval": 1,
+    "no-extra-boolean-cast": 1,
+    "no-extra-semi": 0,
+    "no-implicit-coercion": 1,
+    "no-implied-eval": 1,
+    "no-loop-func": 1,
+    "no-multi-assign": 1,
+    "no-nested-ternary": 1,
+    "no-nonoctal-decimal-escape": 0,
+    "no-octal": 0,
+    "no-return-assign": 1,
+    "no-script-url": 1,
+    "no-shadow": [2, { "allow": ["state", "getters"] }],
+    "no-useless-catch": 1,
+    "no-with": 0,
+    "prefer-const": 1,
+    "prefer-exponentiation-operator": 1,
+    "prefer-template": 1,
+    "require-await": 2,
+    "require-yield": 0,
+    // react
+    "react/react-in-jsx-scope": "off",
+    "react/prefer-stateless-function": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "prettier/prettier": ["error", {"endOfLine": "auto"}],
+    "react/prop-types": "off"
+
+  }
+}
