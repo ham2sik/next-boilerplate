@@ -1,0 +1,52 @@
+{
+  "name": "react-component",
+  "version": "0.1.0",
+  "description": "React기반 공통 컴포넌트",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://sri-git.saraminhr.co.kr/fedev2/react-component.git"
+  },
+  "author": "FEdev2",
+  "license": "ISC",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "next": "12.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/eslint-parser": "^7.5.4",
+    "@storybook/addon-actions": "^6.5.13",
+    "@storybook/addon-essentials": "^6.5.13",
+    "@storybook/addon-interactions": "^6.5.13",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/builder-webpack5": "^6.5.13",
+    "@storybook/manager-webpack5": "^6.5.13",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^6.5.13",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-storybook": "^0.6.7",
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^10.3.1",
+    "storybook-addon-next": "^1.6.9",
+    "style-loader": "^3.3.1"
+  }
+}
